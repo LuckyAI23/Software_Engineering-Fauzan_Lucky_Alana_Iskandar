@@ -5,7 +5,7 @@ def main():
         nums.add(input("Input number:"))
     nums = sorted(nums)
     print(nums)
-    print("Second smallest is {}".format(list(nums)[-2]))
+    print("Second smallest is {}".format(list(nums)[1]))
 
 if __name__=="__main__":
     main()
